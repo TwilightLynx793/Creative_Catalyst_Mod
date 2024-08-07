@@ -1,7 +1,7 @@
 package net.twilightlynx.creative_catalyst;
 
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.twilightlynx.creative_catalyst.item.ModCreativeModeTabs;
 import net.twilightlynx.creative_catalyst.item.ModItems;
 import org.slf4j.Logger;
 
@@ -40,6 +40,7 @@ public class CreativeCatalyst
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
