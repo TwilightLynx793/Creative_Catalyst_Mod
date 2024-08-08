@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "creative_catalyst:raw_citrine_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "creative_catalyst:blocks/raw_citrine_block"
+}
