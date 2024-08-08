@@ -1,4 +1,8 @@
 {
+  "tab.creative_catalyst.modtab": "Creative Catalyst",
+
   "item.creative_catalyst.citrine": "Citrine",
-  "item.creative_catalyst.raw_citrine": "Raw Citrine"
+  "item.creative_catalyst.raw_citrine": "Raw Citrine",
+  "block.creative_catalyst.citrine_block": "Block of Citrine",
+  "block.creative_catalyst.raw_citrine_block": "Block of Raw Citrine"
 }

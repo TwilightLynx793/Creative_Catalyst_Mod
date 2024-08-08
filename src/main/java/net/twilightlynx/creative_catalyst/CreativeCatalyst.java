@@ -1,7 +1,7 @@
 package net.twilightlynx.creative_catalyst;
 
 import net.minecraft.world.item.CreativeModeTabs;
-import net.twilightlynx.creative_catalyst.item.ModCreativeModeTabs;
+import net.twilightlynx.creative_catalyst.block.ModBlocks;
 import net.twilightlynx.creative_catalyst.item.ModItems;
 import org.slf4j.Logger;
 
@@ -40,6 +40,8 @@ public class CreativeCatalyst
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         ModCreativeModeTabs.register(modEventBus);
 
         // Register the item to a creative tab
@@ -59,6 +61,8 @@ public class CreativeCatalyst
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CITRINE);
             event.accept(ModItems.RAW_CITRINE);
+            event.accept(ModBlocks.CITRINE_BLOCK);
+            event.accept(ModBlocks.RAW_CITRINE_BLOCK);
         }
     }
 
