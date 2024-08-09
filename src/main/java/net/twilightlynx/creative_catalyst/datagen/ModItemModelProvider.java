@@ -19,6 +19,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CITRINE.get());
         basicItem(ModItems.RAW_CITRINE.get());
         basicItem(ModItems.CITRINE_POWDER.get());
+        basicItem(ModItems.HAMBURGER.get());
+        basicItem(ModItems.FRENCH_FRIES.get());
+        basicItem(ModItems.FRENCH_FRY_PACKET.get());
 
     }
 

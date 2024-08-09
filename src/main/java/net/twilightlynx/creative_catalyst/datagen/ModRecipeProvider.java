@@ -1,5 +1,6 @@
 package net.twilightlynx.creative_catalyst.datagen;
 
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.twilightlynx.creative_catalyst.block.ModBlocks;
 import net.twilightlynx.creative_catalyst.CreativeCatalyst;
@@ -37,6 +38,30 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("$$$")
                 .define('$', ModItems.RAW_CITRINE.get())
                 .unlockedBy("has_raw_citrine", has(ModItems.RAW_CITRINE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HAMBURGER.get())
+                .pattern(" B ")
+                .pattern(" S ")
+                .pattern(" B ")
+                .define('B', Items.BREAD)
+                .define('S', Items.COOKED_BEEF)
+                .unlockedBy("has_cooked_beef", has(Items.COOKED_BEEF)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FRENCH_FRIES.get())
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" V ")
+                .define('P', Items.BAKED_POTATO)
+                .define('V', ModItems.FRENCH_FRY_PACKET)
+                .unlockedBy("has_baked_potato", has(Items.BAKED_POTATO)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FRENCH_FRY_PACKET.get())
+                .pattern("   ")
+                .pattern("# #")
+                .pattern(" R ")
+                .define('#', Items.PAPER)
+                .define('R', Items.RED_DYE)
+                .unlockedBy("has_paper", has(Items.PAPER)).save(pRecipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CITRINE.get(), 9)
                 .requires(ModBlocks.CITRINE_BLOCK.get())

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "   ",
+    "# #",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "creative_catalyst:french_fry_packet"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:baked_potato"
+    },
+    "V": {
+      "item": "creative_catalyst:french_fry_packet"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PPP",
+    " V "
+  ],
+  "result": {
+    "count": 1,
+    "id": "creative_catalyst:french_fries"
+  }
+}
