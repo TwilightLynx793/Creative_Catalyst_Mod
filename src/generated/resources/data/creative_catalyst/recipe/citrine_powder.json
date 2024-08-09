@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "creative_catalyst:citrine"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "creative_catalyst:citrine_powder"
+  }
+}

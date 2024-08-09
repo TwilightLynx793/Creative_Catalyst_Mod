@@ -15,17 +15,30 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreativeCatalyst.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> BLACK_OPAL_ITEMS_TAB =
-            CREATIVE_MODE_TABS.register("black_opal_items_tab", () -> CreativeModeTab.builder()
-                    .title(Component.translatable("tab.creative_catalyst.modtab"))
+    public static final Supplier<CreativeModeTab> CREATIVE_CATALYST_RESOURCE_TAB =
+            CREATIVE_MODE_TABS.register("creative_catalyst_resource_tab", () -> CreativeModeTab.builder()
+                    .title(Component.translatable("tab.creative_catalyst.modresourcetab"))
                     .icon(() -> new ItemStack(ModItems.CITRINE.get()))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.CITRINE.get());
                         pOutput.accept(ModItems.RAW_CITRINE.get());
+                        pOutput.accept(ModItems.CITRINE_POWDER.get());
 
                         pOutput.accept(ModBlocks.CITRINE_BLOCK);
                         pOutput.accept(ModBlocks.RAW_CITRINE_BLOCK);
+
+                        pOutput.accept(ModBlocks.CITRINE_ORE);
+                        pOutput.accept(ModBlocks.DEEPSLATE_CITRINE_ORE);
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> CREATIVE_CATALYST_FOODS_TAB =
+            CREATIVE_MODE_TABS.register("creative_catalyst_foods_tab", () -> CreativeModeTab.builder()
+                    .title(Component.translatable("tab.creative_catalyst.modfoodstab"))
+                    .icon(() -> new ItemStack(ModItems.CITRINE.get()))
+                    .displayItems((pParameters, pOutput) -> {
+
 
                     }).build());
 

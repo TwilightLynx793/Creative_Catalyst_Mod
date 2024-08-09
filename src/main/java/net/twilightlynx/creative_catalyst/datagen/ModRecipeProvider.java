@@ -1,5 +1,6 @@
 package net.twilightlynx.creative_catalyst.datagen;
 
+import net.minecraft.world.item.Items;
 import net.twilightlynx.creative_catalyst.block.ModBlocks;
 import net.twilightlynx.creative_catalyst.CreativeCatalyst;
 import net.twilightlynx.creative_catalyst.item.ModItems;
@@ -20,7 +21,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
-        List<ItemLike> CITRINE_SMELTABLES = List.of(ModItems.RAW_CITRINE);
+        List<ItemLike> CITRINE_SMELTABLES = List.of(ModItems.RAW_CITRINE, ModBlocks.CITRINE_ORE,
+                ModBlocks.DEEPSLATE_CITRINE_ORE);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CITRINE_BLOCK.get())
                 .pattern("$$$")
@@ -43,6 +45,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_CITRINE.get(), 9)
                 .requires(ModBlocks.RAW_CITRINE_BLOCK.get())
                 .unlockedBy("has_raw_citrine_block", has(ModBlocks.CITRINE_BLOCK.get())).save(pRecipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CITRINE_POWDER.get(), 4)
+                .requires(ModItems.CITRINE.get())
+                .unlockedBy("has_citrine", has(ModBlocks.CITRINE_BLOCK.get())).save(pRecipeOutput);
 
 
         oreSmelting(pRecipeOutput, CITRINE_SMELTABLES, RecipeCategory.MISC, ModItems.CITRINE.get(), 0.25f, 200, "black_opal");

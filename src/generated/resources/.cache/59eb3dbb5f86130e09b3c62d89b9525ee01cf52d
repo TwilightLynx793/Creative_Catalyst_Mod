@@ -1,3 +1,5 @@
-// 1.21	2024-08-08T12:22:46.5451866	Loot Tables
+// 1.21.1	2024-08-09T06:54:43.4036126	Loot Tables
 6ecd56307b37dd6eda1c486fa24971e7370f06e7 data/creative_catalyst/loot_table/blocks/citrine_block.json
+9bdae73458a3300f2195d06c46182d127d2265f8 data/creative_catalyst/loot_table/blocks/citrine_ore.json
+8bd30f244de3a9313a524e3396d5fee0eb5b3842 data/creative_catalyst/loot_table/blocks/deepslate_citrine_ore.json
 fe4a5c8dd6a514d9d7f68ce8350ecc8166867476 data/creative_catalyst/loot_table/blocks/raw_citrine_block.json

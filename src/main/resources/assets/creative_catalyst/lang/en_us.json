@@ -1,8 +1,14 @@
 {
-  "tab.creative_catalyst.modtab": "Creative Catalyst",
+  "tab.creative_catalyst.modresourcetab": "Creative Catalyst: Resources",
+  "tab.creative_catalyst.modfoodstab": "Creative Catalyst: Foods",
 
   "item.creative_catalyst.citrine": "Citrine",
   "item.creative_catalyst.raw_citrine": "Raw Citrine",
+  "item.creative_catalyst.citrine_powder": "Citrine Powder",
+
   "block.creative_catalyst.citrine_block": "Block of Citrine",
-  "block.creative_catalyst.raw_citrine_block": "Block of Raw Citrine"
+  "block.creative_catalyst.raw_citrine_block": "Block of Raw Citrine",
+
+  "block.creative_catalyst.citrine_ore": "Citrine Ore",
+  "block.creative_catalyst.deepslate_citrine_ore": "Deepslate Citrine Ore"
 }

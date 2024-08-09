@@ -30,14 +30,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RAW_CITRINE_BLOCK.get());
         // dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
-        /*this.add(ModBlocks.BLACK_OPAL_ORE.get(),
-                block -> createOreDrop(ModBlocks.BLACK_OPAL_ORE.get(), ModItems.RAW_BLACK_OPAL.get()));
-        this.add(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE.get(), ModItems.RAW_BLACK_OPAL.get(), 2, 5));
-        this.add(ModBlocks.BLACK_OPAL_END_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.BLACK_OPAL_END_ORE.get(), ModItems.RAW_BLACK_OPAL.get(), 4, 7));
-        this.add(ModBlocks.BLACK_OPAL_NETHER_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.BLACK_OPAL_NETHER_ORE.get(), ModItems.RAW_BLACK_OPAL.get(), 3, 9));*/
+        this.add(ModBlocks.CITRINE_ORE.get(),
+                block -> createOreDrop(ModBlocks.CITRINE_ORE.get(), ModItems.RAW_CITRINE.get()));
+        this.add(ModBlocks.DEEPSLATE_CITRINE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_CITRINE_ORE.get(), ModItems.RAW_CITRINE.get(), 2, 5));
 
     }
 

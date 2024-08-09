@@ -19,6 +19,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.CITRINE_BLOCK);
         blockWithItem(ModBlocks.RAW_CITRINE_BLOCK);
 
+        blockWithItem(ModBlocks.CITRINE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_CITRINE_ORE);
+
     }
 
     private void blockWithItem(DeferredBlock<Block> deferredBlock) {

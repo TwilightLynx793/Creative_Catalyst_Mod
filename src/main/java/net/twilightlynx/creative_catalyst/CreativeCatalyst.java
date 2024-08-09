@@ -61,6 +61,7 @@ public class CreativeCatalyst
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CITRINE);
             event.accept(ModItems.RAW_CITRINE);
+            event.accept(ModItems.CITRINE_POWDER);
             event.accept(ModBlocks.CITRINE_BLOCK);
             event.accept(ModBlocks.RAW_CITRINE_BLOCK);
         }

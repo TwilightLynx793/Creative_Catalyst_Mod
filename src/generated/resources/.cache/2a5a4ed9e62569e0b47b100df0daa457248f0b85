@@ -1,4 +1,4 @@
-// 1.21	2024-08-08T12:27:06.6388257	Tags for minecraft:block mod id creative_catalyst
-df252e3f362c14303e74b61cdf5bcdec133929de data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21.1	2024-08-09T06:54:43.4006101	Tags for minecraft:block mod id creative_catalyst
+8fa525b858498cba22a7775721bc368e2547d1f5 data/minecraft/tags/block/mineable/pickaxe.json
 e780521773fc56bdd70ebad5052478ebf9f4fe57 data/minecraft/tags/block/needs_diamond_tool.json
-cd6953a7d805bd3dd6456d875cfd54f62c96fe1b data/minecraft/tags/block/needs_iron_tool.json
+86869d6f0387fa04d55ae11c2ce0b8800974938f data/minecraft/tags/block/needs_iron_tool.json

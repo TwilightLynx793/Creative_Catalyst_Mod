@@ -18,6 +18,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModItems.CITRINE.get());
         basicItem(ModItems.RAW_CITRINE.get());
+        basicItem(ModItems.CITRINE_POWDER.get());
 
     }
 

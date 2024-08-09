@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "creative_catalyst:block/citrine_ore"
+  }
+}

@@ -17,9 +17,15 @@ public class ModBlocks {
             DeferredRegister.createBlocks(CreativeCatalyst.MOD_ID);
 
     public static final DeferredBlock<Block> CITRINE_BLOCK = registerBlock("citrine_block",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> RAW_CITRINE_BLOCK = registerBlock("raw_citrine_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(7f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CITRINE_ORE = registerBlock("citrine_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

@@ -1,7 +1,13 @@
-// 1.21	2024-08-08T08:06:43.3948029	Block States: creative_catalyst
+// 1.21.1	2024-08-09T06:54:43.4026122	Block States: creative_catalyst
 f744e7461c79d058a89a7a4faa83469ff3d3015b assets/creative_catalyst/blockstates/citrine_block.json
+dd00240d61e1494b040e54cd20c338a510d2ce09 assets/creative_catalyst/blockstates/citrine_ore.json
+fe3fbf74daec9f4c81562addffc4ee832f49fdaa assets/creative_catalyst/blockstates/deepslate_citrine_ore.json
 181d7b032a3978137a468f41221ae905bc57f3b1 assets/creative_catalyst/blockstates/raw_citrine_block.json
 06c1cccf4182ad11e5ddc529159d980c32fdac9d assets/creative_catalyst/models/block/citrine_block.json
+053a2d3fccd9a33e23dfb002858e2c353deb3ed9 assets/creative_catalyst/models/block/citrine_ore.json
+fced05aca711096fe186654364a233e9bb9169bd assets/creative_catalyst/models/block/deepslate_citrine_ore.json
 b248eae7ec593b4d454e434d7e88da3443050f92 assets/creative_catalyst/models/block/raw_citrine_block.json
 383f87b6192a76ab8c555bc98c63f9ffae5003e0 assets/creative_catalyst/models/item/citrine_block.json
+e6d1b5e5434f881bf08e382ebdc5394fe8a74e0b assets/creative_catalyst/models/item/citrine_ore.json
+ccb749266c7595e16977abbeb067bc3a7b4f087a assets/creative_catalyst/models/item/deepslate_citrine_ore.json
 4db5457f176342c525da3af1fd448d62d1bd385d assets/creative_catalyst/models/item/raw_citrine_block.json
